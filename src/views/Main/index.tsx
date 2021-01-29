@@ -14,6 +14,10 @@ import WeatherIconComponent from '../../themes/molecules/WeatherIconComponent';
 import DataGrid from '../../themes/organisms/DataGrid';
 import { useSWR } from '../../hooks/swr/useSwr';
 import DegreeRow from '../../themes/organisms/DegreeRow';
+import DateComponent from '../../themes/molecules/DateComponent';
+import LocalComponent from '../../themes/molecules/LocalComponent';
+import LocalDataRow from '../../themes/organisms/LocalDataRow';
+import Infos from '../../themes/Template/Infos';
 
 const Index = (): React.FC => {
   const { location, requestLocation } = useContext(LocationContext);
@@ -28,14 +32,8 @@ const Index = (): React.FC => {
   }, [data]);
 
   return (
-    <View style={{ backgroundColor: '#ccc', flex: 1 }}>
-      <DegreeRow
-        degree={data?.main.temp}
-        icon={data?.weather[0].icon}
-        weather={data?.weather[0].description}
-        requestLocation={requestLocation}
-      />
-      <DataGrid fetchCurrent={data} />
+    <View style={{ flex: 1 }}>
+      <Infos data={data} requestLocation={requestLocation} />
     </View>
   );
 };
