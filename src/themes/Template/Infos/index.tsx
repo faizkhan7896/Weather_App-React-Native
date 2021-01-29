@@ -15,7 +15,7 @@ const Infos = ({ data, requestLocation }: Props): React.FC => {
     <Container>
       <LocalDataRow
         fullDate={data?.dt}
-        local={`${data?.name},${data?.sys.country}`}
+        local={data ? `${data?.name},${data?.sys.country}` : ''}
       />
       <DegreeRow
         degree={data?.main.temp}

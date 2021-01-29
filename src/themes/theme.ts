@@ -24,6 +24,7 @@ export default {
     gray400: '#cbd5e0',
     lightGreen: '#18c17a',
     ebonyDark: '#232b3a',
+    whiteGray: '#f2f2f2',
   },
   space: {
     small: 4,

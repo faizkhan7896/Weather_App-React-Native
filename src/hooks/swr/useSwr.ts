@@ -7,10 +7,11 @@ interface Resolve {
   data: FetchCurrentDTO | undefined;
   isLoading: boolean;
   isError: any;
+  revalidate: () => void;
 }
 
 export function useSWR(location: GeoCoordinates): Resolve {
-  const { data, isError, isLoading } = useSwr(
+  const { data, revalidate, isError, isLoading } = useSwr(
     location ? [location.latitude, location.longitude] : null,
     fetchCurrentDataByGPS,
   );
@@ -19,5 +20,6 @@ export function useSWR(location: GeoCoordinates): Resolve {
     data,
     isError,
     isLoading,
+    revalidate,
   };
 }

@@ -23,6 +23,7 @@ declare module 'styled-components' {
       gray400: string;
       lightGreen: string;
       ebonyDark: string;
+      whiteGray: string;
     };
     space: {
       small: number;
