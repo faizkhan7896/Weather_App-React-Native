@@ -1,5 +1,5 @@
 import React from 'react';
-import ContentLoader, { Rect } from 'react-content-loader/native';
+import { Rect } from 'react-content-loader/native';
 
 import { Container, ContainerLoader } from './styles';
 import theme from '../../../theme';

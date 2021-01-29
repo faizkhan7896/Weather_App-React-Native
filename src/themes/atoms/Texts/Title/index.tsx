@@ -1,5 +1,4 @@
 import React from 'react';
-import { StyleSheetProperties } from 'react-native';
 import { Text } from './styles';
 
 interface Props {

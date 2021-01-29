@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 import FastImage from 'react-native-fast-image';
 
 export const Container = styled.View`
-  width: ${(props) => props.theme.metrics.width * 0.25}px;
+  width: ${(props) => props.theme.metrics.width * 0.3}px;
   height: ${(props) => props.theme.metrics.height * 0.15}px;
   justify-content: center;
   align-items: center;

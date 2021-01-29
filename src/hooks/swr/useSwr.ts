@@ -10,7 +10,6 @@ interface Resolve {
 }
 
 export function useSWR(location: GeoCoordinates): Resolve {
-  console.log('USESWR', location);
   const { data, isError, isLoading } = useSwr(
     location ? [location.latitude, location.longitude] : null,
     fetchCurrentDataByGPS,

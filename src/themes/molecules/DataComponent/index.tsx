@@ -19,7 +19,7 @@ const DataComponent = ({
       <ImageFast uri={url} />
       <ContainerMeasurement>
         {value ? <MediumText text={value} /> : <MeasurementLoader />}
-        <MediumText text={measurement} />
+        <MediumText capitalize={false} text={measurement} />
       </ContainerMeasurement>
       <SmallText text={type} />
     </Container>

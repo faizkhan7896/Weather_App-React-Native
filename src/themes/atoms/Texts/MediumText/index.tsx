@@ -3,10 +3,11 @@ import { Text } from './styles';
 
 interface Props {
   text: string;
+  capitalize: boolean;
 }
 
-const MediumText = ({ text }: Props): React.FC => {
-  return <Text>{text}</Text>;
+const MediumText = ({ text, capitalize = true }: Props): React.FC => {
+  return <Text capitalize={capitalize}>{text}</Text>;
 };
 
 export default MediumText;
