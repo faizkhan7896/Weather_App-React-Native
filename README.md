@@ -1,9 +1,28 @@
 # Aplicativo
 
+**Se for testar:**
+
+```
+git clone https://github.com/reinaldonetof/weather-local-rn WeatherLocal
+```
+```
+cd WeatherLocal && yarn install
+```
+
+
+
 **Screenshots:**
 <br/>
-<a href="https://ibb.co/bJmvdzW"><img src="https://i.ibb.co/cL38TDg/tela-Loading.jpg" alt="tela-Loading" border="0" height="380" ></a>
-<a href="https://ibb.co/nbrcgys"><img src="https://i.ibb.co/XbXs2PZ/tela-Result.jpg" alt="tela-Result" border="0"  height="380"></a>
+
+**Android:**
+<br/>
+<a href="https://ibb.co/bJmvdzW"><img src="https://i.ibb.co/cL38TDg/tela-Loading.jpg" alt="tela-Loading" border="0" height="350" ></a>
+<a href="https://ibb.co/nbrcgys"><img src="https://i.ibb.co/XbXs2PZ/tela-Result.jpg" alt="tela-Result" border="0"  height="350"></a>
+
+**iOS:**
+<br/>
+<a href="https://ibb.co/Pw1KpRx"><img src="https://i.ibb.co/V2MRydV/tela-Loadingi-OS.jpg" alt="tela-Loadingi-OS" border="0" height="380"></a>
+<a href="https://ibb.co/bdNqH8x"><img src="https://i.ibb.co/GPCBsbX/tela-Result-IOS.jpg" alt="tela-Result-IOS" border="0" height="380"></a>
 
 **Video:** [LINK YOUTUBE](https://www.youtube.com/watch?v=cvTBzU686OY&ab_channel=ReinaldoNeto)
 
