@@ -3,28 +3,11 @@ import { StyleSheetProperties } from 'react-native';
 import { Text } from './styles';
 
 interface Props {
-  fontFamily: 'regular' | 'bold' | 'black' | 'medium';
-  fontSize: 'small' | 'regular' | 'middle' | 'medium';
-  color: string;
   text: string;
-  style: StyleSheetProperties;
+  color: string;
 }
 
-const Title: React.FC<Props> = ({
-  style,
-  text,
-  color,
-  fontFamily,
-  fontSize,
-}: Props) => {
-  return (
-    <Text
-      fontFamily={fontFamily}
-      fontSize={fontSize}
-      color={color}
-      style={style}>
-      {text}
-    </Text>
-  );
+const Title: React.FC<Props> = ({ text, color = 'black' }: Props) => {
+  return <Text color={color}>{text}</Text>;
 };
 export default Title;

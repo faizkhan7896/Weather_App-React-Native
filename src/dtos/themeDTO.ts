@@ -38,7 +38,7 @@ declare module 'styled-components' {
       medium: number;
       chapter: number;
       subtitle: number;
-      title: number;
+      max: number;
     };
     fontFamily: {
       regular: string;

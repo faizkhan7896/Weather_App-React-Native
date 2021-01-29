@@ -39,7 +39,7 @@ export default {
     medium: 20,
     chapter: 24,
     subtitle: 36,
-    title: 42,
+    max: 42,
   },
   fontFamily: {
     regular: 'Barlow-Regular',

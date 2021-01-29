@@ -6,7 +6,7 @@ import {
 } from '../../services/RequestLocation';
 
 interface LocationContext {
-  setLocation: () => void;
+  requestLocation: () => void;
   location: GeoCoordinates;
 }
 
@@ -34,7 +34,7 @@ export function LocationProvider({ children }: React.FC): React.FC {
   }, [requestPermission]);
 
   return (
-    <LocationContext.Provider value={[location, requestLocation]}>
+    <LocationContext.Provider value={{ location, requestLocation }}>
       {children}
     </LocationContext.Provider>
   );
