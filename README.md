@@ -1,8 +1,9 @@
 # Aplicativo
 
 **Screenshots:**
- <a href="https://ibb.co/bJmvdzW"><img src="https://i.ibb.co/cL38TDg/tela-Loading.jpg" alt="tela-Loading" border="0"></a>
-<a href="https://ibb.co/nbrcgys"><img src="https://i.ibb.co/XbXs2PZ/tela-Result.jpg" alt="tela-Result" border="0"></a>
+<br/>
+<a href="https://ibb.co/bJmvdzW"><img src="https://i.ibb.co/cL38TDg/tela-Loading.jpg" alt="tela-Loading" border="0" height="380" ></a>
+<a href="https://ibb.co/nbrcgys"><img src="https://i.ibb.co/XbXs2PZ/tela-Result.jpg" alt="tela-Result" border="0"  height="380"></a>
 
 **Video:** [LINK YOUTUBE](https://www.youtube.com/watch?v=cvTBzU686OY&ab_channel=ReinaldoNeto)
 
