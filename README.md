@@ -1,5 +1,12 @@
 # Aplicativo
 
+  ## Build Status [WIP]
+
+| Platform      | Build Status (Master)  |
+| ------------- |:-------------:|
+| Android       | [![Build status](https://build.appcenter.ms/v0.1/apps/778ebf27-278b-4dbc-824c-027276c2bb91/branches/main/badge)](https://appcenter.ms)|
+| iOS           | [![Build status](https://build.appcenter.ms/v0.1/apps/04e9e7d7-6d2b-4d3d-ba23-b23344629212/branches/master/badge)](https://appcenter.ms)|
+
 **Se for testar:**
 
 ```
