@@ -17,7 +17,7 @@ const WeatherIconComponent = ({
       {icon && weatherName ? (
         <>
           <Image uri={`http://openweathermap.org/img/wn/${icon}.png`} />
-          <MediumText text="thunderstorm" />
+          <MediumText text={weatherName} />
         </>
       ) : (
         <WeatherIconLoader />
