@@ -3,7 +3,7 @@ import { GeoCoordinates } from 'react-native-geolocation-service';
 import {
   getLocation,
   requestLocationPermission,
-} from '../../services/RequestLocation';
+} from '../../controllers/RequestLocation';
 
 interface LocationContext {
   requestLocation: () => void;
