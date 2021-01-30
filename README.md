@@ -119,7 +119,7 @@ Este tópico define como os conceitos de arquitetura serão aplicados ao escopo 
 
 ## Estrutura
 
-A ideia é usar o **princípio da separação de preocupações** (principle of separation of concerns) para afastar a lógica de negócios das rotas, no caso as views (screens). A estrutura segue o padrão **VIPER(Views, Interactor, Presenter, Entity, Routes)** com uma adição da *models*, para armazenamento off-line e gerenciamento de dados.
+A ideia é usar o **princípio da separação de preocupações** (principle of separation of concerns) para afastar a lógica de negócios das rotas, no caso as views (screens).
 
 ```
  src
