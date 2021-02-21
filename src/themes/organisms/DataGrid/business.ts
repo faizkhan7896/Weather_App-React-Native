@@ -47,7 +47,7 @@ export const DataBusiness = (
     {
       type: 'Wind',
       value: wind,
-      measurement: '%',
+      measurement: 'm/s',
       SVG: Wind,
     },
     {
